@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LorisBurnWire-rescue)(type Legacy)(uri ${KIPRJMOD}/LorisBurnWire-rescue.lib)(options "")(descr ""))
+)
