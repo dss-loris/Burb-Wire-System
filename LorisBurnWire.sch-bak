@@ -547,8 +547,6 @@ Wire Wire Line
 Wire Wire Line
 	6625 2450 7025 2450
 Wire Wire Line
-	4550 2800 6625 2800
-Wire Wire Line
 	6625 2800 6625 2450
 Connection ~ 4550 2800
 $Comp
@@ -576,4 +574,11 @@ Wire Wire Line
 	1425 1850 1100 1850
 Wire Wire Line
 	1100 1850 1100 1825
+Wire Wire Line
+	5125 2350 5125 2800
+Wire Wire Line
+	4550 2800 5125 2800
+Connection ~ 5125 2800
+Wire Wire Line
+	5125 2800 6625 2800
 $EndSCHEMATC
