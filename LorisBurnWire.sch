@@ -1401,4 +1401,6 @@ Wire Notes Line
 Wire Notes Line
 	800  625  800  8775
 Connection ~ 8325 1650
+Text Label 10100 1400 0    50   ~ 0
+Test
 $EndSCHEMATC
