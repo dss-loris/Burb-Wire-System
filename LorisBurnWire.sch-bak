@@ -201,10 +201,6 @@ F 3 "~" H 7025 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6225 2300 6225 2450
-Wire Wire Line
-	7025 2300 7025 2450
-Wire Wire Line
 	6225 2000 6625 2000
 Connection ~ 6225 2000
 Wire Wire Line
@@ -539,15 +535,6 @@ F 3 "" H 3375 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5825 2000 6225 2000
-Wire Wire Line
-	6625 2300 6625 2450
-Connection ~ 6625 2450
-Wire Wire Line
-	6625 2450 6225 2450
-Wire Wire Line
-	6625 2450 7025 2450
-Wire Wire Line
-	6625 2800 6625 2450
 Connection ~ 4550 2800
 $Comp
 L Device:Heater R?
@@ -561,10 +548,7 @@ F 3 "~" H 7800 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6625 2800 7800 2800
-Wire Wire Line
 	7800 2800 7800 2575
-Connection ~ 6625 2800
 Wire Wire Line
 	7800 2275 7800 2000
 Wire Wire Line
@@ -580,5 +564,20 @@ Wire Wire Line
 	4550 2800 5125 2800
 Connection ~ 5125 2800
 Wire Wire Line
-	5125 2800 6625 2800
+	5125 2800 6225 2800
+Wire Wire Line
+	6225 2300 6225 2800
+Connection ~ 6225 2800
+Wire Wire Line
+	6225 2800 6625 2800
+Wire Wire Line
+	6625 2300 6625 2800
+Connection ~ 6625 2800
+Wire Wire Line
+	6625 2800 7025 2800
+Wire Wire Line
+	7025 2300 7025 2800
+Connection ~ 7025 2800
+Wire Wire Line
+	7025 2800 7800 2800
 $EndSCHEMATC
