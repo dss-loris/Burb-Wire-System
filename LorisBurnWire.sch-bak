@@ -14,28 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D D1
-U 1 1 5E42F042
-P 1525 4100
-F 0 "D1" H 1525 3884 50  0000 C CNN
-F 1 "D" H 1525 3975 50  0000 C CNN
-F 2 "" H 1525 4100 50  0001 C CNN
-F 3 "~" H 1525 4100 50  0001 C CNN
-	1    1525 4100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+BATT #PWR02
-U 1 1 5E43071E
-P 1050 4075
-F 0 "#PWR02" H 1050 3925 50  0001 C CNN
-F 1 "+BATT" H 1065 4248 50  0000 C CNN
-F 2 "" H 1050 4075 50  0001 C CNN
-F 3 "" H 1050 4075 50  0001 C CNN
-	1    1050 4075
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5E430FD4
 P 1925 4500
@@ -106,21 +84,18 @@ L Device:D D2
 U 1 1 5E43BFEE
 P 5075 4450
 F 0 "D2" V 5029 4529 50  0000 L CNN
-F 1 "D" V 5120 4529 50  0000 L CNN
+F 1 "B330B-13-F" V 5120 4529 50  0000 L CNN
 F 2 "" H 5075 4450 50  0001 C CNN
 F 3 "~" H 5075 4450 50  0001 C CNN
 	1    5075 4450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1675 4100 1925 4100
-Wire Wire Line
 	1925 4100 1925 4350
 Wire Wire Line
 	1925 4100 2375 4100
 Wire Wire Line
 	2375 4100 2375 4500
-Connection ~ 1925 4100
 Wire Wire Line
 	2675 4500 2675 4250
 Wire Wire Line
@@ -208,8 +183,8 @@ $Comp
 L LorisBurnWire-rescue:TLC555-Loris U2
 U 1 1 5E4526F6
 P 7675 1850
-F 0 "U2" H 7650 1211 50  0000 C CNN
-F 1 "TLC555" H 7650 1120 50  0000 C CNN
+F 0 "U2" H 7825 1325 50  0000 C CNN
+F 1 "TLC555" H 7850 1225 50  0000 C CNN
 F 2 "" H 7675 2050 50  0001 C CNN
 F 3 "" H 7675 2050 50  0001 C CNN
 	1    7675 1850
@@ -231,7 +206,7 @@ L Device:R_US R4
 U 1 1 5E4544C1
 P 6525 1100
 F 0 "R4" H 6593 1146 50  0000 L CNN
-F 1 "33K" H 6593 1055 50  0000 L CNN
+F 1 "2M" H 6593 1055 50  0000 L CNN
 F 2 "" V 6565 1090 50  0001 C CNN
 F 3 "~" H 6525 1100 50  0001 C CNN
 	1    6525 1100
@@ -310,15 +285,12 @@ F 3 "~" H 8175 1050 50  0001 C CNN
 $EndComp
 Connection ~ 8175 900 
 Wire Wire Line
-	8175 900  7675 900 
+	8175 900  8000 900 
 Wire Wire Line
 	8175 1850 8175 2050
-Connection ~ 8175 1850
 Wire Wire Line
 	8175 2300 8175 2050
 Connection ~ 8175 2050
-Wire Wire Line
-	8175 1200 8175 1650
 Wire Wire Line
 	7675 2650 8175 2650
 Wire Wire Line
@@ -527,9 +499,7 @@ Wire Wire Line
 	7750 4250 6975 4250
 Connection ~ 6975 4250
 Wire Wire Line
-	1375 4100 1050 4100
-Wire Wire Line
-	1050 4100 1050 4075
+	1675 4100 1675 4075
 Wire Wire Line
 	5075 4600 5075 5050
 Wire Wire Line
@@ -577,33 +547,8 @@ Wire Wire Line
 	5675 2075 5675 1975
 Text GLabel 5675 1975 1    50   Input ~ 0
 30_MIN_TIMER
-Connection ~ 8175 1650
-Wire Wire Line
-	8175 1650 8175 1850
 Wire Wire Line
 	10075 1650 10075 3000
-$Comp
-L Device:D D7
-U 1 1 5E65FEED
-P 9125 4125
-F 0 "D7" H 9125 3909 50  0000 C CNN
-F 1 "D" H 9125 4000 50  0000 C CNN
-F 2 "" H 9125 4125 50  0001 C CNN
-F 3 "~" H 9125 4125 50  0001 C CNN
-	1    9125 4125
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+BATT #PWR07
-U 1 1 5E65FEF3
-P 8650 4100
-F 0 "#PWR07" H 8650 3950 50  0001 C CNN
-F 1 "+BATT" H 8665 4273 50  0000 C CNN
-F 2 "" H 8650 4100 50  0001 C CNN
-F 3 "" H 8650 4100 50  0001 C CNN
-	1    8650 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C16
 U 1 1 5E65FEF9
@@ -670,26 +615,6 @@ F 3 "~" H 12100 4800 50  0001 C CNN
 	1    12100 4800
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:D D9
-U 1 1 5E65FF1D
-P 12675 4475
-F 0 "D9" V 12629 4554 50  0000 L CNN
-F 1 "D" V 12720 4554 50  0000 L CNN
-F 2 "" H 12675 4475 50  0001 C CNN
-F 3 "~" H 12675 4475 50  0001 C CNN
-	1    12675 4475
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9275 4125 9525 4125
-Wire Wire Line
-	9525 4125 9525 4375
-Wire Wire Line
-	9525 4125 9975 4125
-Wire Wire Line
-	9975 4125 9975 4525
-Connection ~ 9525 4125
 Wire Wire Line
 	10275 4525 10275 4275
 Wire Wire Line
@@ -698,9 +623,6 @@ Wire Wire Line
 	10525 4475 10525 4725
 Wire Wire Line
 	10525 4725 10175 4725
-Connection ~ 9975 4125
-Wire Wire Line
-	9975 4125 9975 4075
 Wire Wire Line
 	9975 4075 10525 4075
 Wire Wire Line
@@ -821,10 +743,6 @@ Wire Wire Line
 	15350 4275 14575 4275
 Connection ~ 14575 4275
 Wire Wire Line
-	8975 4125 8650 4125
-Wire Wire Line
-	8650 4125 8650 4100
-Wire Wire Line
 	12675 4625 12675 5075
 Wire Wire Line
 	12100 5075 12675 5075
@@ -846,28 +764,6 @@ Wire Wire Line
 Connection ~ 14575 5075
 Wire Wire Line
 	14575 5075 15350 5075
-$Comp
-L Device:D D4
-U 1 1 5E7341EA
-P 1500 7000
-F 0 "D4" H 1500 6784 50  0000 C CNN
-F 1 "D" H 1500 6875 50  0000 C CNN
-F 2 "" H 1500 7000 50  0001 C CNN
-F 3 "~" H 1500 7000 50  0001 C CNN
-	1    1500 7000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+BATT #PWR01
-U 1 1 5E7341F0
-P 1025 6975
-F 0 "#PWR01" H 1025 6825 50  0001 C CNN
-F 1 "+BATT" H 1040 7148 50  0000 C CNN
-F 2 "" H 1025 6975 50  0001 C CNN
-F 3 "" H 1025 6975 50  0001 C CNN
-	1    1025 6975
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C6
 U 1 1 5E7341F6
@@ -934,26 +830,10 @@ F 3 "~" H 4475 7675 50  0001 C CNN
 	1    4475 7675
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:D D5
-U 1 1 5E73421A
-P 5050 7350
-F 0 "D5" V 5004 7429 50  0000 L CNN
-F 1 "D" V 5095 7429 50  0000 L CNN
-F 2 "" H 5050 7350 50  0001 C CNN
-F 3 "~" H 5050 7350 50  0001 C CNN
-	1    5050 7350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1650 7000 1900 7000
 Wire Wire Line
 	1900 7000 1900 7250
 Wire Wire Line
-	1900 7000 2350 7000
-Wire Wire Line
 	2350 7000 2350 7400
-Connection ~ 1900 7000
 Wire Wire Line
 	2650 7400 2650 7150
 Wire Wire Line
@@ -1085,10 +965,6 @@ Wire Wire Line
 	7725 7150 6950 7150
 Connection ~ 6950 7150
 Wire Wire Line
-	1350 7000 1025 7000
-Wire Wire Line
-	1025 7000 1025 6975
-Wire Wire Line
 	5050 7500 5050 7950
 Wire Wire Line
 	4475 7950 5050 7950
@@ -1110,28 +986,6 @@ Wire Wire Line
 Connection ~ 6950 7950
 Wire Wire Line
 	6950 7950 7725 7950
-$Comp
-L Device:D D6
-U 1 1 5E73427C
-P 9100 7025
-F 0 "D6" H 9100 6809 50  0000 C CNN
-F 1 "D" H 9100 6900 50  0000 C CNN
-F 2 "" H 9100 7025 50  0001 C CNN
-F 3 "~" H 9100 7025 50  0001 C CNN
-	1    9100 7025
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+BATT #PWR06
-U 1 1 5E734282
-P 8625 7000
-F 0 "#PWR06" H 8625 6850 50  0001 C CNN
-F 1 "+BATT" H 8640 7173 50  0000 C CNN
-F 2 "" H 8625 7000 50  0001 C CNN
-F 3 "" H 8625 7000 50  0001 C CNN
-	1    8625 7000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C15
 U 1 1 5E734288
@@ -1198,26 +1052,10 @@ F 3 "~" H 12075 7700 50  0001 C CNN
 	1    12075 7700
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:D D8
-U 1 1 5E7342AC
-P 12650 7375
-F 0 "D8" V 12604 7454 50  0000 L CNN
-F 1 "D" V 12695 7454 50  0000 L CNN
-F 2 "" H 12650 7375 50  0001 C CNN
-F 3 "~" H 12650 7375 50  0001 C CNN
-	1    12650 7375
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 7025 9500 7025
 Wire Wire Line
 	9500 7025 9500 7275
 Wire Wire Line
-	9500 7025 9950 7025
-Wire Wire Line
 	9950 7025 9950 7425
-Connection ~ 9500 7025
 Wire Wire Line
 	10250 7425 10250 7175
 Wire Wire Line
@@ -1349,10 +1187,6 @@ Wire Wire Line
 	15325 7175 14550 7175
 Connection ~ 14550 7175
 Wire Wire Line
-	8950 7025 8625 7025
-Wire Wire Line
-	8625 7025 8625 7000
-Wire Wire Line
 	12650 7525 12650 7975
 Wire Wire Line
 	12075 7975 12650 7975
@@ -1401,6 +1235,97 @@ Wire Notes Line
 Wire Notes Line
 	800  625  800  8775
 Connection ~ 8325 1650
-Text Label 10100 1400 0    50   ~ 0
-Test
+Wire Wire Line
+	8175 1850 8250 1850
+Wire Wire Line
+	8250 1850 8250 1500
+Wire Wire Line
+	8250 1500 8175 1500
+Wire Wire Line
+	8175 1500 8175 1200
+Connection ~ 8175 1850
+$Comp
+L power:+5V #PWR?
+U 1 1 5E495322
+P 8000 900
+F 0 "#PWR?" H 8000 750 50  0001 C CNN
+F 1 "+5V" H 8015 1073 50  0000 C CNN
+F 2 "" H 8000 900 50  0001 C CNN
+F 3 "" H 8000 900 50  0001 C CNN
+	1    8000 900 
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 900 
+Wire Wire Line
+	8000 900  7675 900 
+Text GLabel 1675 4075 1    50   Input ~ 0
+PACK+
+Wire Wire Line
+	1925 4100 1675 4100
+Connection ~ 1925 4100
+Wire Wire Line
+	1675 7000 1675 6975
+Text GLabel 1675 6975 1    50   Input ~ 0
+PACK+
+Connection ~ 1900 7000
+Wire Wire Line
+	1900 7000 1675 7000
+Wire Wire Line
+	1900 7000 2350 7000
+Wire Wire Line
+	9275 7025 9275 7000
+Text GLabel 9275 7000 1    50   Input ~ 0
+PACK+
+Connection ~ 9500 7025
+Wire Wire Line
+	9500 7025 9275 7025
+Wire Wire Line
+	9500 7025 9950 7025
+Wire Wire Line
+	9975 4075 9975 4525
+Wire Wire Line
+	9275 4075 9275 4050
+Text GLabel 9275 4050 1    50   Input ~ 0
+PACK+
+Wire Wire Line
+	9525 4075 9275 4075
+Wire Wire Line
+	9975 4075 9525 4075
+Connection ~ 9975 4075
+Connection ~ 9525 4075
+Wire Wire Line
+	9525 4075 9525 4375
+$Comp
+L Device:D D?
+U 1 1 5E61BF74
+P 12675 4475
+F 0 "D?" V 12629 4554 50  0000 L CNN
+F 1 "B330B-13-F" V 12720 4554 50  0000 L CNN
+F 2 "" H 12675 4475 50  0001 C CNN
+F 3 "~" H 12675 4475 50  0001 C CNN
+	1    12675 4475
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E652B18
+P 12650 7375
+F 0 "D?" V 12604 7454 50  0000 L CNN
+F 1 "B330B-13-F" V 12695 7454 50  0000 L CNN
+F 2 "" H 12650 7375 50  0001 C CNN
+F 3 "~" H 12650 7375 50  0001 C CNN
+	1    12650 7375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E66E08C
+P 5050 7350
+F 0 "D?" V 5004 7429 50  0000 L CNN
+F 1 "B330B-13-F" V 5095 7429 50  0000 L CNN
+F 2 "" H 5050 7350 50  0001 C CNN
+F 3 "~" H 5050 7350 50  0001 C CNN
+	1    5050 7350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
