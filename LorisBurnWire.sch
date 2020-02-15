@@ -313,12 +313,9 @@ Wire Wire Line
 	8175 900  7675 900 
 Wire Wire Line
 	8175 1850 8175 2050
-Connection ~ 8175 1850
 Wire Wire Line
 	8175 2300 8175 2050
 Connection ~ 8175 2050
-Wire Wire Line
-	8175 1200 8175 1650
 Wire Wire Line
 	7675 2650 8175 2650
 Wire Wire Line
@@ -577,9 +574,6 @@ Wire Wire Line
 	5675 2075 5675 1975
 Text GLabel 5675 1975 1    50   Input ~ 0
 30_MIN_TIMER
-Connection ~ 8175 1650
-Wire Wire Line
-	8175 1650 8175 1850
 Wire Wire Line
 	10075 1650 10075 3000
 $Comp
@@ -1403,4 +1397,13 @@ Wire Notes Line
 Connection ~ 8325 1650
 Text Label 10100 1400 0    50   ~ 0
 Test
+Wire Wire Line
+	8175 1850 8250 1850
+Wire Wire Line
+	8250 1850 8250 1500
+Wire Wire Line
+	8250 1500 8175 1500
+Wire Wire Line
+	8175 1500 8175 1200
+Connection ~ 8175 1850
 $EndSCHEMATC
