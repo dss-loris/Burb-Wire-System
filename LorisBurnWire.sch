@@ -897,15 +897,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 6575 8800 6400
 Connection ~ 8150 6575
-Wire Wire Line
-	8650 5575 8650 5775
-Connection ~ 8650 5775
-Wire Wire Line
-	8650 5775 8650 5975
-Connection ~ 8650 5975
-Wire Wire Line
-	8650 5975 8650 6925
-Text Label 8650 6925 2    50   ~ 0
+Text Label 8900 6900 2    50   ~ 0
 WireCutter4
 $Comp
 L Transistor_FET:BUK7M6R3-40EX Q?
@@ -1252,4 +1244,8 @@ Wire Wire Line
 Wire Wire Line
 	1900 9425 1900 9250
 Connection ~ 2350 9425
+Wire Wire Line
+	8650 5575 8900 5575
+Wire Wire Line
+	8900 5575 8900 6900
 $EndSCHEMATC
