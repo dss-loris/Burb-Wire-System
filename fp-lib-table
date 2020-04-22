@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name TempoFootprints)(type KiCad)(uri ${KIPRJMOD}/TempoFootprints.pretty)(options "")(descr ""))
+  (lib (name 282837-2)(type KiCad)(uri C:/Users/oestu/Downloads/282837-2)(options "")(descr ""))
+)

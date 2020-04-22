@@ -1227,7 +1227,7 @@ U 1 1 5EA59BAC
 P 9325 8175
 F 0 "J4" H 9405 8167 50  0000 L CNN
 F 1 "BurnWire" H 9405 8076 50  0000 L CNN
-F 2 "" H 9325 8175 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 9325 8175 50  0001 C CNN
 F 3 "~" H 9325 8175 50  0001 C CNN
 	1    9325 8175
 	1    0    0    -1  
@@ -1242,7 +1242,7 @@ U 1 1 5EA906F1
 P 6975 8175
 F 0 "J3" H 7055 8167 50  0000 L CNN
 F 1 "BurnWire" H 7055 8076 50  0000 L CNN
-F 2 "" H 6975 8175 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 6975 8175 50  0001 C CNN
 F 3 "~" H 6975 8175 50  0001 C CNN
 	1    6975 8175
 	1    0    0    -1  
@@ -1257,7 +1257,7 @@ U 1 1 5EAD2A0F
 P 4900 8175
 F 0 "J2" H 4980 8167 50  0000 L CNN
 F 1 "BurnWire" H 4980 8076 50  0000 L CNN
-F 2 "" H 4900 8175 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 4900 8175 50  0001 C CNN
 F 3 "~" H 4900 8175 50  0001 C CNN
 	1    4900 8175
 	1    0    0    -1  
@@ -1272,7 +1272,7 @@ U 1 1 5EB15CFD
 P 2550 8150
 F 0 "J1" H 2630 8142 50  0000 L CNN
 F 1 "BurnWire" H 2630 8051 50  0000 L CNN
-F 2 "" H 2550 8150 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 2550 8150 50  0001 C CNN
 F 3 "~" H 2550 8150 50  0001 C CNN
 	1    2550 8150
 	1    0    0    -1  
