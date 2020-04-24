@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# BurnWireLib_RT4812
+#
+DEF BurnWireLib_RT4812 U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "BurnWireLib_RT4812" 0 400 50 H V C CNN
+F2 "" 50 300 50 H I C CNN
+F3 "" 50 300 50 H I C CNN
+DRAW
+S -250 -500 350 250 0 1 0 N
+X Vin 1 -350 -50 100 R 50 50 1 1 I
+X FB 2 450 -250 100 L 50 50 1 1 I
+X Vout 3 450 100 100 L 50 50 1 1 I
+X PGND 4 150 -600 100 U 50 50 1 1 I
+X GND 5 50 -600 100 U 50 50 1 1 I
+X SW 6 -350 150 100 R 50 50 1 1 I
+X EN 7 -350 -300 100 R 50 50 1 1 I
+X ILIM 8 -350 -400 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Connector_Screw_Terminal_01x02
 #
 DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
@@ -74,11 +94,34 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 8 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -145,9 +188,7 @@ F1 "Jumper_Jumper_3_Open" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Jumper*
- TestPoint*3Pads*
- TestPoint*Bridge*
+ SolderJumper*Open*
 $ENDFPLIST
 DRAW
 A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40

@@ -19,13 +19,11 @@ U 1 1 5EB95FDC
 P 5900 1775
 F 0 "U3" H 5975 2240 50  0000 C CNN
 F 1 "LP38501-ADJ" H 5975 2149 50  0000 C CNN
-F 2 "" H 5900 2225 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-5_TabPin3" H 5900 2225 50  0001 C CNN
 F 3 "" H 5900 2225 50  0001 C CNN
 	1    5900 1775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 1725 5350 1725
 $Comp
 L Device:C_Small C8
 U 1 1 5EBA203F
@@ -92,7 +90,7 @@ U 1 1 5EB9460A
 P 8150 1900
 F 0 "U5" H 8200 2000 50  0000 R CNN
 F 1 "LMP8646" H 8300 1925 50  0000 R CNN
-F 2 "TempoFootprints:SOT-23-THN (DDC)" H 8150 1850 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:TSOT-23-6_HandSoldering" H 8150 1850 50  0001 C CNN
 F 3 "" H 8150 1850 50  0001 C CNN
 	1    8150 1900
 	1    0    0    -1  
@@ -1153,8 +1151,6 @@ Wire Wire Line
 Connection ~ 6775 7850
 Wire Wire Line
 	6775 7850 9125 7850
-Text Label 6650 1575 1    50   ~ 0
-3.5V
 Wire Notes Line
 	10950 700  625  700 
 Wire Notes Line
@@ -1192,7 +1188,7 @@ U 1 1 5E8DEDC5
 P 5350 1875
 F 0 "JP1" H 5600 2000 50  0000 C CNN
 F 1 "Jumper_3_Open" H 5675 2075 50  0000 C CNN
-F 2 "TempoFootprints:TE_87224-3" H 5350 1875 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5350 1875 50  0001 C CNN
 F 3 "~" H 5350 1875 50  0001 C CNN
 	1    5350 1875
 	-1   0    0    1   
@@ -1281,4 +1277,231 @@ Wire Wire Line
 	2350 8250 2350 8575
 Wire Wire Line
 	2350 7850 2350 8150
+$Comp
+L BurnWireLib:RT4812 U7
+U 1 1 5EAF5CE4
+P 2225 1975
+F 0 "U7" H 2275 2390 50  0000 C CNN
+F 1 "RT4812" H 2275 2299 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering" H 2275 2275 50  0001 C CNN
+F 3 "https://www.digikey.ca/product-detail/en/richtek-usa-inc/RT4812GJ8F/1028-1512-1-ND/5640521" H 2275 2275 50  0001 C CNN
+	1    2225 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5EAF69B3
+P 1425 2000
+F 0 "C16" H 1225 2025 50  0000 L CNN
+F 1 "22u" H 1175 1950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1425 2000 50  0001 C CNN
+F 3 "~" H 1425 2000 50  0001 C CNN
+	1    1425 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L1
+U 1 1 5EB25078
+P 1575 1825
+F 0 "L1" V 1760 1825 50  0000 C CNN
+F 1 "L_Small" V 1669 1825 50  0000 C CNN
+F 2 "BurnWire:SPM6530T-3R3M" H 1575 1825 50  0001 C CNN
+F 3 "~" H 1575 1825 50  0001 C CNN
+F 4 "RICHTEK" H 1575 1825 50  0001 C CNN "MFG Name"
+F 5 "SPM6530T-3R3M" H 1575 1825 50  0001 C CNN "MFG Part Number"
+	1    1575 1825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1675 1825 1875 1825
+NoConn ~ 1875 2375
+Wire Wire Line
+	1425 1825 1475 1825
+Wire Wire Line
+	1425 1900 1425 1875
+Wire Wire Line
+	1875 2025 1600 2025
+Wire Wire Line
+	1600 2025 1600 1875
+Wire Wire Line
+	1600 1875 1550 1875
+Connection ~ 1425 1875
+Wire Wire Line
+	1425 1875 1425 1825
+$Comp
+L Device:C_Small C17
+U 1 1 5ECA27CF
+P 1550 2175
+F 0 "C17" H 1650 2200 50  0000 L CNN
+F 1 "22u" H 1650 2125 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 2175 50  0001 C CNN
+F 3 "~" H 1550 2175 50  0001 C CNN
+	1    1550 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2075 1550 1875
+Connection ~ 1550 1875
+Wire Wire Line
+	1550 1875 1425 1875
+Wire Wire Line
+	1550 2275 1550 2725
+Wire Wire Line
+	2325 2725 2325 2625
+Wire Wire Line
+	2275 2575 2275 2625
+Wire Wire Line
+	2275 2625 2325 2625
+Wire Wire Line
+	2375 2575 2375 2625
+Wire Wire Line
+	2375 2625 2325 2625
+Connection ~ 2325 2625
+Wire Wire Line
+	1425 2100 1425 2725
+Wire Wire Line
+	1425 2725 1550 2725
+Connection ~ 1550 2725
+Wire Wire Line
+	1550 2725 1675 2725
+$Comp
+L Device:R_Small R22
+U 1 1 5ED0112A
+P 1675 2500
+F 0 "R22" H 1734 2546 50  0000 L CNN
+F 1 "100k" H 1725 2475 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1675 2500 50  0001 C CNN
+F 3 "~" H 1675 2500 50  0001 C CNN
+	1    1675 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 2400 1675 2275
+Wire Wire Line
+	1675 2275 1875 2275
+Wire Wire Line
+	1675 2600 1675 2725
+Connection ~ 1675 2725
+Wire Wire Line
+	1675 2725 2325 2725
+Wire Wire Line
+	1425 1825 1225 1825
+Connection ~ 1425 1825
+Text GLabel 1225 1825 0    50   Input ~ 0
+PACK+
+$Comp
+L Device:R_Small R23
+U 1 1 5ED480F4
+P 2775 2050
+F 0 "R23" H 2834 2096 50  0000 L CNN
+F 1 "909k" H 2825 2025 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2775 2050 50  0001 C CNN
+F 3 "~" H 2775 2050 50  0001 C CNN
+	1    2775 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 5ED58F71
+P 2775 2400
+F 0 "R24" H 2834 2446 50  0000 L CNN
+F 1 "100k" H 2825 2375 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2775 2400 50  0001 C CNN
+F 3 "~" H 2775 2400 50  0001 C CNN
+	1    2775 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 1875 2775 1875
+Wire Wire Line
+	2775 1875 2775 1950
+Wire Wire Line
+	2675 2225 2775 2225
+Wire Wire Line
+	2775 2225 2775 2150
+Wire Wire Line
+	2775 2225 2775 2300
+Connection ~ 2775 2225
+Wire Wire Line
+	2775 2500 2775 2725
+Wire Wire Line
+	2775 2725 2325 2725
+Connection ~ 2325 2725
+Connection ~ 2775 1875
+$Comp
+L Device:C_Small C18
+U 1 1 5EDF6398
+P 3175 2175
+F 0 "C18" H 3275 2175 50  0000 L CNN
+F 1 "22u" H 3275 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3175 2175 50  0001 C CNN
+F 3 "~" H 3175 2175 50  0001 C CNN
+	1    3175 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 5EE2E4CA
+P 3500 2175
+F 0 "C19" H 3600 2175 50  0000 L CNN
+F 1 "22u" H 3600 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3500 2175 50  0001 C CNN
+F 3 "~" H 3500 2175 50  0001 C CNN
+	1    3500 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 2000 3175 2075
+Wire Wire Line
+	3500 2000 3500 2075
+Wire Wire Line
+	3175 2275 3175 2450
+Wire Wire Line
+	3500 2450 3500 2275
+Connection ~ 2775 2725
+$Comp
+L power:+5V #PWR0101
+U 1 1 5EECD4F8
+P 3700 1875
+F 0 "#PWR0101" H 3700 1725 50  0001 C CNN
+F 1 "+5V" H 3715 2048 50  0000 C CNN
+F 2 "" H 3700 1875 50  0001 C CNN
+F 3 "" H 3700 1875 50  0001 C CNN
+	1    3700 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1725 5550 1725
+Wire Wire Line
+	2775 1875 3325 1875
+Wire Wire Line
+	3175 2000 3325 2000
+Wire Wire Line
+	3175 2450 3325 2450
+Wire Wire Line
+	3325 2450 3325 2725
+Connection ~ 3325 2450
+Wire Wire Line
+	3325 2450 3500 2450
+Wire Wire Line
+	3325 2725 2775 2725
+Wire Wire Line
+	3325 2000 3325 1875
+Connection ~ 3325 2000
+Connection ~ 3325 1875
+Wire Wire Line
+	3325 2000 3500 2000
+Wire Wire Line
+	3325 1875 3700 1875
+$Comp
+L power:GND #PWR?
+U 1 1 5EF9B6AD
+P 2325 2725
+F 0 "#PWR?" H 2325 2475 50  0001 C CNN
+F 1 "GND" H 2330 2552 50  0000 C CNN
+F 2 "" H 2325 2725 50  0001 C CNN
+F 3 "" H 2325 2725 50  0001 C CNN
+	1    2325 2725
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
