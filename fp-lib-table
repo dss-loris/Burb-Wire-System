@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name TempoFootprints)(type KiCad)(uri ${KIPRJMOD}/TempoFootprints.pretty)(options "")(descr ""))
+  (lib (name BurnWire)(type KiCad)(uri ${KIPRJMOD}/BurnWire.pretty)(options "")(descr ""))
 )
