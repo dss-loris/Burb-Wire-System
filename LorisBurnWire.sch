@@ -1504,4 +1504,8 @@ F 3 "" H 3500 5975 50  0001 C CNN
 	1    3500 5775
 	1    0    0    -1  
 $EndComp
+Text GLabel 9950 1550 3    50   Input ~ 0
+PWR_FLAG
+Text GLabel 5750 7850 3    50   Input ~ 0
+PWR_FLAG
 $EndSCHEMATC
