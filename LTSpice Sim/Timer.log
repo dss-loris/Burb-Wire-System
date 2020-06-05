@@ -6,56 +6,56 @@ Gmin = 10
 Gmin = 1.07374
 Gmin = 0.115292
 Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
 vernier = 0.5
+vernier = 0.666667
+Gmin = 0.00403769
+vernier = 0.888888
+Gmin = 0.000653801
+vernier = 1
+vernier = 0.5
+Gmin = 0.00010969
 vernier = 0.25
-Gmin = 4.89078e-005
 vernier = 0.125
 vernier = 0.0625
 vernier = 0.03125
+Gmin = 0.000102437
 vernier = 0.015625
-Gmin = 4.72412e-005
 vernier = 0.0078125
-vernier = 0.00390625
-vernier = 0.00520833
-Gmin = 4.70722e-005
-vernier = 0.00694444
-Gmin = 4.63429e-005
-vernier = 0.00925925
-vernier = 0.0123457
-Gmin = 4.51446e-005
-vernier = 0.0164609
-vernier = 0.0219478
-Gmin = 4.32987e-005
-vernier = 0.0292638
-Gmin = 4.05485e-005
-vernier = 0.0390184
-vernier = 0.0520245
-Gmin = 3.63271e-005
-vernier = 0.0693659
-vernier = 0.0924879
-Gmin = 3.05036e-005
-vernier = 0.123317
-Gmin = 2.32018e-005
-vernier = 0.164423
-vernier = 0.21923
-Gmin = 1.47184e-005
-vernier = 0.292307
-vernier = 0.389743
-Gmin = 7.19399e-006
-vernier = 0.519657
-Gmin = 2.38331e-006
-vernier = 0.692876
-vernier = 0.923834
-Gmin = 3.98046e-007
+Gmin = 0.000101048
+vernier = 0.0104167
+vernier = 0.0138889
+Gmin = 9.81134e-005
+vernier = 0.0185185
+vernier = 0.0246913
+Gmin = 9.3613e-005
+vernier = 0.0329218
+Gmin = 8.69535e-005
+vernier = 0.0438957
+vernier = 0.0585276
+Gmin = 7.68446e-005
+vernier = 0.0780367
+vernier = 0.104049
+Gmin = 6.31458e-005
+vernier = 0.138732
+Gmin = 4.64398e-005
+vernier = 0.184976
+vernier = 0.246634
+Gmin = 2.7871e-005
+vernier = 0.328846
+vernier = 0.438461
+Gmin = 1.25016e-005
+vernier = 0.584614
+Gmin = 3.63764e-006
+vernier = 0.779486
 vernier = 1
-Gmin = 4.40723e-008
-Gmin = 4.73223e-009
-Gmin = 5.08119e-010
-Gmin = 5.45589e-011
-Gmin = 5.85822e-012
-Gmin = 6.29021e-013
+Gmin = 5.11979e-007
+Gmin = 5.49734e-008
+Gmin = 5.90272e-009
+Gmin = 6.338e-010
+Gmin = 6.80537e-011
+Gmin = 7.30721e-012
+Gmin = 7.84606e-013
+Gmin = 0
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
@@ -65,91 +65,29 @@ Changing Tseed to 1e-007
 Changing Tseed to 1e-011
 Changing Tseed to 1e-006
 Changing Tseed to 1e-012
-Heightened Def Con from 5.69878e-009 to 8.69878e-009
 Heightened Def Con from 5.00001e-007 to 5.00001e-007
 Heightened Def Con from 5.00001e-007 to 5.00001e-007
 Heightened Def Con from 5.00001e-007 to 5.00001e-007
 Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 +to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 5.00001e-007 ++to 5.00001e-007
-Heightened Def Con from 5.00001e-007 +to 5.00001e-007
-Heightened Def Con from 5.00001e-007 +to 5.00001e-007
-Heightened Def Con from 5.00001e-007 to 5.00001e-007
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 ++++to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 ++++to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 ++to 3.14981e-006
-Heightened Def Con from 3.14981e-006 +to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 ++++++to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 +to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 3.14981e-006 to 3.14981e-006
-Heightened Def Con from 0.00297644 to 0.00297644
-Heightened Def Con from 1890.49 to 1890.49
-Heightened Def Con from 1920.48 to 1920.48
-Heightened Def Con from 1920.48 to 1920.48
-Heightened Def Con from 1950.47 to 1950.47
-Heightened Def Con from 1950.47 to 1950.47
-Heightened Def Con from 1980.46 to 1980.46
+Heightened Def Con from 1920.56 to 1920.56
+Heightened Def Con from 1950.58 to 1950.58
+Heightened Def Con from 1980.61 to 1980.61
 
-Date: Fri Jun 05 14:19:19 2020
-Total elapsed time: 1.675 seconds.
+Date: Fri Jun 05 14:49:03 2020
+Total elapsed time: 1.355 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 27845
-traniter = 26291
-tranpoints = 5348
-accept = 3901
-rejected = 1533
-matrix size = 270
+totiter = 17651
+traniter = 16121
+tranpoints = 4632
+accept = 3998
+rejected = 635
+matrix size = 263
 fillins = 15
 solver = Normal
-Thread vector: 72.1/37.6[8] 19.1/7.6[8] 21.3/6.5[8] 1.1/2.0[1]  2592/500
-Matrix Compiler1: 11.11 KB object code size  4.7/2.7/[2.2]
-Matrix Compiler2: 16.50 KB object code size  2.2/3.0/[1.5]
+Thread vector: 66.7/20.9[8] 20.6/8.9[8] 22.4/7.0[8] 1.4/1.5[1]  2592/500
+Matrix Compiler1: 10.76 KB object code size  4.4/2.7/[2.4]
+Matrix Compiler2: 15.94 KB object code size  2.3/11.5/[1.4]
 
