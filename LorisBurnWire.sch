@@ -610,22 +610,11 @@ F 3 "https://www.digikey.ca/product-detail/en/richtek-usa-inc/RT4812GJ8F/1028-15
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
-U 1 1 5EAF69B3
-P 1425 1725
-F 0 "C16" H 1225 1750 50  0000 L CNN
-F 1 "22u" H 1175 1675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1425 1725 50  0001 C CNN
-F 3 "~" H 1425 1725 50  0001 C CNN
-	1    1425 1725
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L_Small L1
 U 1 1 5EB25078
 P 1575 1550
-F 0 "L1" V 1760 1550 50  0000 C CNN
-F 1 "L_Small" V 1669 1550 50  0000 C CNN
+F 0 "L1" V 1750 1475 50  0000 C CNN
+F 1 "L_Small" V 1650 1450 50  0000 C CNN
 F 2 "BurnWire:SPM6530T-3R3M" H 1575 1550 50  0001 C CNN
 F 3 "~" H 1575 1550 50  0001 C CNN
 F 4 "RICHTEK" H 1575 1550 50  0001 C CNN "MFG Name"
@@ -636,55 +625,17 @@ $EndComp
 Wire Wire Line
 	1675 1550 1875 1550
 NoConn ~ 1875 2100
-Wire Wire Line
-	1425 1550 1475 1550
-Wire Wire Line
-	1425 1625 1425 1600
-Wire Wire Line
-	1875 1750 1600 1750
-Wire Wire Line
-	1600 1750 1600 1600
-Wire Wire Line
-	1600 1600 1550 1600
-Connection ~ 1425 1600
-Wire Wire Line
-	1425 1600 1425 1550
 $Comp
 L Device:C_Small C17
 U 1 1 5ECA27CF
-P 1550 1900
-F 0 "C17" H 1650 1925 50  0000 L CNN
-F 1 "22u" H 1650 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 1900 50  0001 C CNN
-F 3 "~" H 1550 1900 50  0001 C CNN
-	1    1550 1900
+P 1550 1850
+F 0 "C17" H 1625 2075 50  0000 L CNN
+F 1 "22u" H 1625 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 1850 50  0001 C CNN
+F 3 "~" H 1550 1850 50  0001 C CNN
+	1    1550 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 1800 1550 1600
-Connection ~ 1550 1600
-Wire Wire Line
-	1550 1600 1425 1600
-Wire Wire Line
-	1550 2000 1550 2450
-Wire Wire Line
-	2325 2450 2325 2350
-Wire Wire Line
-	2275 2300 2275 2350
-Wire Wire Line
-	2275 2350 2325 2350
-Wire Wire Line
-	2375 2300 2375 2350
-Wire Wire Line
-	2375 2350 2325 2350
-Connection ~ 2325 2350
-Wire Wire Line
-	1425 1825 1425 2450
-Wire Wire Line
-	1425 2450 1550 2450
-Connection ~ 1550 2450
-Wire Wire Line
-	1550 2450 1675 2450
 $Comp
 L Device:R_Small R22
 U 1 1 5ED0112A
@@ -702,13 +653,7 @@ Wire Wire Line
 	1675 2000 1875 2000
 Wire Wire Line
 	1675 2325 1675 2450
-Connection ~ 1675 2450
-Wire Wire Line
-	1675 2450 2325 2450
-Wire Wire Line
-	1425 1550 1225 1550
-Connection ~ 1425 1550
-Text GLabel 1225 1550 0    50   Input ~ 0
+Text GLabel 950  1550 0    50   Input ~ 0
 PACK+
 $Comp
 L Device:R_Small R23
@@ -746,7 +691,7 @@ Connection ~ 2775 1950
 Wire Wire Line
 	2775 2225 2775 2450
 Wire Wire Line
-	2775 2450 2325 2450
+	2775 2450 2375 2450
 Connection ~ 2325 2450
 Connection ~ 2775 1600
 $Comp
@@ -775,10 +720,6 @@ Wire Wire Line
 	3175 1725 3175 1800
 Wire Wire Line
 	3500 1725 3500 1800
-Wire Wire Line
-	3175 2000 3175 2175
-Wire Wire Line
-	3500 2175 3500 2000
 Connection ~ 2775 2450
 $Comp
 L power:+5V #PWR0101
@@ -797,15 +738,6 @@ Wire Wire Line
 	2775 1600 3325 1600
 Wire Wire Line
 	3175 1725 3325 1725
-Wire Wire Line
-	3175 2175 3325 2175
-Wire Wire Line
-	3325 2175 3325 2450
-Connection ~ 3325 2175
-Wire Wire Line
-	3325 2175 3500 2175
-Wire Wire Line
-	3325 2450 2775 2450
 Wire Wire Line
 	3325 1725 3325 1600
 Connection ~ 3325 1725
@@ -1593,4 +1525,88 @@ Text GLabel 6200 8825 0    50   Input ~ 0
 WireCutter3
 Text GLabel 8550 8825 0    50   Input ~ 0
 WireCutter4
+$Comp
+L Device:C_Small C16
+U 1 1 5EAF69B3
+P 1450 1400
+F 0 "C16" H 1225 1475 50  0000 L CNN
+F 1 "22u" H 1225 1375 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1450 1400 50  0001 C CNN
+F 3 "~" H 1450 1400 50  0001 C CNN
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1750 1450 1550
+Wire Wire Line
+	1450 1750 1550 1750
+Connection ~ 1450 1550
+Wire Wire Line
+	1450 1550 1475 1550
+Wire Wire Line
+	1675 2000 1375 2000
+Wire Wire Line
+	1375 2000 1375 1550
+Connection ~ 1675 2000
+Connection ~ 1375 1550
+Wire Wire Line
+	1375 1550 1450 1550
+Connection ~ 1550 1750
+Wire Wire Line
+	1550 1750 1875 1750
+Wire Wire Line
+	2275 2300 2275 2450
+Wire Wire Line
+	1675 2450 2275 2450
+Connection ~ 2275 2450
+Wire Wire Line
+	2275 2450 2325 2450
+Wire Wire Line
+	2375 2300 2375 2450
+Connection ~ 2375 2450
+Wire Wire Line
+	2375 2450 2325 2450
+Wire Wire Line
+	1550 1950 1700 1950
+Wire Wire Line
+	1700 1950 1700 1925
+$Comp
+L power:GND #PWR?
+U 1 1 5F0BE645
+P 1700 1925
+F 0 "#PWR?" H 1700 1675 50  0001 C CNN
+F 1 "GND" H 1700 1800 50  0000 C CNN
+F 2 "" H 1700 1925 50  0001 C CNN
+F 3 "" H 1700 1925 50  0001 C CNN
+	1    1700 1925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  1550 1375 1550
+$Comp
+L power:GND #PWR?
+U 1 1 5F15D96B
+P 1475 1200
+F 0 "#PWR?" H 1475 950 50  0001 C CNN
+F 1 "GND" V 1475 1025 50  0000 C CNN
+F 2 "" H 1475 1200 50  0001 C CNN
+F 3 "" H 1475 1200 50  0001 C CNN
+	1    1475 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 1550 1450 1500
+Wire Wire Line
+	1450 1300 1450 1200
+Wire Wire Line
+	1450 1200 1475 1200
+Wire Wire Line
+	3175 2000 3175 2450
+Connection ~ 3175 2450
+Wire Wire Line
+	3175 2450 2775 2450
+Wire Wire Line
+	3500 2000 3500 2450
+Wire Wire Line
+	3175 2450 3500 2450
 $EndSCHEMATC
