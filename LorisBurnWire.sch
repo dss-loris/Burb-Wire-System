@@ -675,4 +675,478 @@ F 3 "" H 4200 2250 50  0001 C CNN
 	1    4200 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Loris:LTC6993-1 U1
+U 1 1 5EDB43E2
+P 4000 5300
+F 0 "U1" H 4000 5865 50  0000 C CNN
+F 1 "LTC6993-1" H 4000 5774 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 4000 5450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6993-6993-1-6993-2-6993-3-6993-4.pdf" H 4000 5450 50  0001 C CNN
+	1    4000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Loris:LTC6993-3 U2
+U 1 1 5EDB5098
+P 5300 5300
+F 0 "U2" H 5300 5865 50  0000 C CNN
+F 1 "LTC6993-3" H 5300 5774 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 5300 5450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6993-6993-1-6993-2-6993-3-6993-4.pdf" H 5300 5450 50  0001 C CNN
+	1    5300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Loris:LTC6993-3 U4
+U 1 1 5EDB591A
+P 6700 5300
+F 0 "U4" H 6700 5865 50  0000 C CNN
+F 1 "LTC6993-3" H 6700 5774 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 6700 5450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6993-6993-1-6993-2-6993-3-6993-4.pdf" H 6700 5450 50  0001 C CNN
+	1    6700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Loris:LTC6993-3 U6
+U 1 1 5EDB6260
+P 8050 5300
+F 0 "U6" H 8050 5865 50  0000 C CNN
+F 1 "LTC6993-3" H 8050 5774 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 8050 5450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6993-6993-1-6993-2-6993-3-6993-4.pdf" H 8050 5450 50  0001 C CNN
+	1    8050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP2
+U 1 1 5EDB6E8B
+P 3000 5300
+F 0 "JP2" H 3250 5425 50  0000 C CNN
+F 1 "Jumper_3_Open" H 3325 5500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3000 5300 50  0001 C CNN
+F 3 "~" H 3000 5300 50  0001 C CNN
+	1    3000 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5EDB93A0
+P 2400 5250
+F 0 "#PWR01" H 2400 5100 50  0001 C CNN
+F 1 "+5V" H 2415 5423 50  0000 C CNN
+F 2 "" H 2400 5250 50  0001 C CNN
+F 3 "" H 2400 5250 50  0001 C CNN
+	1    2400 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 5250 2750 5250
+Wire Wire Line
+	2750 5250 2750 5300
+Wire Wire Line
+	3000 5150 3000 5000
+Wire Wire Line
+	3000 5000 3600 5000
+Wire Wire Line
+	3250 5300 3400 5300
+$Comp
+L power:GND #PWR02
+U 1 1 5EDC7EAB
+P 6050 6500
+F 0 "#PWR02" H 6050 6250 50  0001 C CNN
+F 1 "GND" H 6055 6327 50  0000 C CNN
+F 2 "" H 6050 6500 50  0001 C CNN
+F 3 "" H 6050 6500 50  0001 C CNN
+	1    6050 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5300 3400 6500
+Connection ~ 3400 5300
+Wire Wire Line
+	3400 5300 3600 5300
+Text GLabel 2700 4600 0    50   Input ~ 0
+PACK+
+Text Notes 4600 4200 0    197  ~ 0
+Sequential Timer
+Wire Wire Line
+	2700 4600 4600 4600
+Wire Wire Line
+	8700 4600 8700 5300
+Wire Wire Line
+	8700 5300 8600 5300
+Wire Wire Line
+	4600 4600 4600 5300
+Wire Wire Line
+	4600 5300 4500 5300
+Connection ~ 4600 4600
+Wire Wire Line
+	4600 4600 5950 4600
+Wire Wire Line
+	5950 4600 5950 5300
+Wire Wire Line
+	5950 5300 5850 5300
+Connection ~ 5950 4600
+Wire Wire Line
+	5950 4600 7400 4600
+Wire Wire Line
+	7400 4600 7400 5300
+Wire Wire Line
+	7400 5300 7250 5300
+Connection ~ 7400 4600
+Wire Wire Line
+	7400 4600 8700 4600
+$Comp
+L Device:R_Small_US R13
+U 1 1 5EE03452
+P 5850 5400
+F 0 "R13" H 5918 5446 50  0000 L CNN
+F 1 "1M" H 5918 5355 50  0000 L CNN
+F 2 "" H 5850 5400 50  0001 C CNN
+F 3 "~" H 5850 5400 50  0001 C CNN
+	1    5850 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 5300
+Wire Wire Line
+	5850 5300 5800 5300
+$Comp
+L Device:R_Small_US R25
+U 1 1 5EE05311
+P 8600 5400
+F 0 "R25" H 8668 5446 50  0000 L CNN
+F 1 "1M" H 8668 5355 50  0000 L CNN
+F 2 "" H 8600 5400 50  0001 C CNN
+F 3 "~" H 8600 5400 50  0001 C CNN
+	1    8600 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 5300
+Wire Wire Line
+	8600 5300 8550 5300
+Text GLabel 4700 5000 3    50   Input ~ 0
+WireCutter1
+$Comp
+L Device:R_Small_US R22
+U 1 1 5EE0FD02
+P 7250 5400
+F 0 "R22" H 7318 5446 50  0000 L CNN
+F 1 "1M" H 7318 5355 50  0000 L CNN
+F 2 "" H 7250 5400 50  0001 C CNN
+F 3 "~" H 7250 5400 50  0001 C CNN
+	1    7250 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 5300
+Wire Wire Line
+	7250 5300 7200 5300
+$Comp
+L Device:R_Small_US R7
+U 1 1 5EE10722
+P 4500 5400
+F 0 "R7" H 4568 5446 50  0000 L CNN
+F 1 "1M" H 4568 5355 50  0000 L CNN
+F 2 "" H 4500 5400 50  0001 C CNN
+F 3 "~" H 4500 5400 50  0001 C CNN
+	1    4500 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 5300
+Wire Wire Line
+	4500 5300 4450 5300
+Wire Wire Line
+	8600 5500 8600 5600
+Wire Wire Line
+	8600 5600 8550 5600
+Wire Wire Line
+	7250 5500 7250 5600
+Wire Wire Line
+	7250 5600 7200 5600
+Wire Wire Line
+	5850 5500 5850 5600
+Wire Wire Line
+	5850 5600 5800 5600
+Wire Wire Line
+	4500 5500 4500 5600
+Wire Wire Line
+	4500 5600 4450 5600
+$Comp
+L Device:R_Small_US R5
+U 1 1 5EE22A70
+P 4450 5700
+F 0 "R5" H 4518 5746 50  0000 L CNN
+F 1 "887k" H 4518 5655 50  0000 L CNN
+F 2 "" H 4450 5700 50  0001 C CNN
+F 3 "~" H 4450 5700 50  0001 C CNN
+	1    4450 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 5600
+Wire Wire Line
+	4450 5600 4400 5600
+$Comp
+L Device:R_Small_US R10
+U 1 1 5EE23C7D
+P 5800 5700
+F 0 "R10" H 5868 5746 50  0000 L CNN
+F 1 "887k" H 5868 5655 50  0000 L CNN
+F 2 "" H 5800 5700 50  0001 C CNN
+F 3 "~" H 5800 5700 50  0001 C CNN
+	1    5800 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 5600
+Wire Wire Line
+	5800 5600 5700 5600
+$Comp
+L Device:R_Small_US R21
+U 1 1 5EE24B4D
+P 7200 5700
+F 0 "R21" H 7268 5746 50  0000 L CNN
+F 1 "887k" H 7268 5655 50  0000 L CNN
+F 2 "" H 7200 5700 50  0001 C CNN
+F 3 "~" H 7200 5700 50  0001 C CNN
+	1    7200 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 5600
+Wire Wire Line
+	7200 5600 7100 5600
+$Comp
+L Device:R_Small_US R24
+U 1 1 5EE25DFB
+P 8550 5700
+F 0 "R24" H 8618 5746 50  0000 L CNN
+F 1 "887k" H 8618 5655 50  0000 L CNN
+F 2 "" H 8550 5700 50  0001 C CNN
+F 3 "~" H 8550 5700 50  0001 C CNN
+	1    8550 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 5600
+Wire Wire Line
+	8550 5600 8450 5600
+$Comp
+L Device:R_Small_US R3
+U 1 1 5EE2624B
+P 3500 5800
+F 0 "R3" H 3568 5846 50  0000 L CNN
+F 1 "715.255k" H 3568 5755 50  0000 L CNN
+F 2 "" H 3500 5800 50  0001 C CNN
+F 3 "~" H 3500 5800 50  0001 C CNN
+	1    3500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 5EE2C194
+P 4800 5800
+F 0 "R8" H 4868 5846 50  0000 L CNN
+F 1 "715.255k" H 4868 5755 50  0000 L CNN
+F 2 "" H 4800 5800 50  0001 C CNN
+F 3 "~" H 4800 5800 50  0001 C CNN
+	1    4800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R17
+U 1 1 5EE2C8CB
+P 6200 5800
+F 0 "R17" H 6268 5846 50  0000 L CNN
+F 1 "715.255k" H 6268 5755 50  0000 L CNN
+F 2 "" H 6200 5800 50  0001 C CNN
+F 3 "~" H 6200 5800 50  0001 C CNN
+	1    6200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R23
+U 1 1 5EE2CE47
+P 7550 5800
+F 0 "R23" H 7618 5846 50  0000 L CNN
+F 1 "715.255k" H 7618 5755 50  0000 L CNN
+F 2 "" H 7550 5800 50  0001 C CNN
+F 3 "~" H 7550 5800 50  0001 C CNN
+	1    7550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 6500 8550 5800
+Connection ~ 6050 6500
+Wire Wire Line
+	7550 5700 7550 5600
+Wire Wire Line
+	7550 5600 7650 5600
+Wire Wire Line
+	7550 5900 7550 6500
+Connection ~ 7550 6500
+Wire Wire Line
+	7550 6500 8550 6500
+Connection ~ 7200 6500
+Wire Wire Line
+	6300 5600 6200 5600
+Wire Wire Line
+	6200 5600 6200 5700
+Wire Wire Line
+	6200 5900 6200 6500
+Connection ~ 6200 6500
+Wire Wire Line
+	6200 6500 7200 6500
+Wire Wire Line
+	4900 5600 4800 5600
+Wire Wire Line
+	4800 5600 4800 5700
+Wire Wire Line
+	6050 6500 6100 6500
+Wire Wire Line
+	5700 5000 5800 5000
+Wire Wire Line
+	7100 5000 7200 5000
+Text GLabel 6100 5000 3    50   Input ~ 0
+WireCutter2
+Text GLabel 7500 5000 3    50   Input ~ 0
+WireCutter3
+Wire Wire Line
+	7200 6500 7450 6500
+Wire Wire Line
+	7650 5300 7650 5550
+Wire Wire Line
+	7650 5550 7450 5550
+Wire Wire Line
+	7450 5550 7450 6500
+Connection ~ 7450 6500
+Wire Wire Line
+	7450 6500 7550 6500
+Wire Wire Line
+	6300 5300 6300 5550
+Wire Wire Line
+	6300 5550 6100 5550
+Wire Wire Line
+	6100 5550 6100 6500
+Connection ~ 6100 6500
+Wire Wire Line
+	6100 6500 6200 6500
+Wire Wire Line
+	3400 6500 3500 6500
+Wire Wire Line
+	4900 5300 4850 5300
+Wire Wire Line
+	4850 5300 4850 5550
+Wire Wire Line
+	4850 5550 4700 5550
+Wire Wire Line
+	4700 5550 4700 6500
+Connection ~ 4700 6500
+Wire Wire Line
+	4700 6500 4800 6500
+Wire Wire Line
+	3600 5600 3500 5600
+Wire Wire Line
+	3500 5600 3500 5700
+Wire Wire Line
+	3500 5900 3500 6500
+Connection ~ 3500 6500
+Wire Wire Line
+	3500 6500 4450 6500
+Text GLabel 8900 5000 2    50   Input ~ 0
+WireCutter4
+Wire Wire Line
+	8450 5000 8550 5000
+Wire Wire Line
+	4450 5800 4450 6500
+Connection ~ 4450 6500
+Wire Wire Line
+	4450 6500 4700 6500
+Wire Wire Line
+	5800 5800 5800 6500
+Connection ~ 5800 6500
+Wire Wire Line
+	5800 6500 6050 6500
+Wire Wire Line
+	4800 5900 4800 6500
+Connection ~ 4800 6500
+Wire Wire Line
+	4800 6500 5800 6500
+Wire Wire Line
+	7200 5800 7200 6500
+$Comp
+L Device:C_Small C4
+U 1 1 5EEF6565
+P 8550 5200
+F 0 "C4" H 8458 5154 50  0000 R CNN
+F 1 "1u" H 8458 5245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8550 5200 50  0001 C CNN
+F 3 "~" H 8550 5200 50  0001 C CNN
+	1    8550 5200
+	-1   0    0    1   
+$EndComp
+Connection ~ 8550 5300
+Wire Wire Line
+	8550 5300 8450 5300
+Wire Wire Line
+	8550 5100 8550 5000
+Connection ~ 8550 5000
+Wire Wire Line
+	8550 5000 8900 5000
+$Comp
+L Device:C_Small C3
+U 1 1 5EF001F7
+P 7200 5200
+F 0 "C3" H 7108 5154 50  0000 R CNN
+F 1 "1u" H 7108 5245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7200 5200 50  0001 C CNN
+F 3 "~" H 7200 5200 50  0001 C CNN
+	1    7200 5200
+	-1   0    0    1   
+$EndComp
+Connection ~ 7200 5300
+Wire Wire Line
+	7200 5300 7100 5300
+Wire Wire Line
+	7200 5100 7200 5000
+Connection ~ 7200 5000
+Wire Wire Line
+	7200 5000 7650 5000
+$Comp
+L Device:C_Small C2
+U 1 1 5EF09319
+P 5800 5200
+F 0 "C2" H 5708 5154 50  0000 R CNN
+F 1 "1u" H 5708 5245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5800 5200 50  0001 C CNN
+F 3 "~" H 5800 5200 50  0001 C CNN
+	1    5800 5200
+	-1   0    0    1   
+$EndComp
+Connection ~ 5800 5300
+Wire Wire Line
+	5800 5300 5700 5300
+Wire Wire Line
+	5800 5100 5800 5000
+Connection ~ 5800 5000
+Wire Wire Line
+	5800 5000 6300 5000
+$Comp
+L Device:C_Small C1
+U 1 1 5EF123C2
+P 4450 5200
+F 0 "C1" H 4358 5154 50  0000 R CNN
+F 1 "1u" H 4358 5245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4450 5200 50  0001 C CNN
+F 3 "~" H 4450 5200 50  0001 C CNN
+	1    4450 5200
+	-1   0    0    1   
+$EndComp
+Connection ~ 4450 5300
+Wire Wire Line
+	4450 5300 4400 5300
+Wire Wire Line
+	4450 5100 4450 5000
+Wire Wire Line
+	4400 5000 4450 5000
+Wire Wire Line
+	4450 5000 4900 5000
+Connection ~ 4450 5000
 $EndSCHEMATC

@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name LorisBurnWire-rescue)(type Legacy)(uri ${KIPRJMOD}/LorisBurnWire-rescue.lib)(options "")(descr ""))
+  (lib (name BurnWireLib)(type Legacy)(uri ${KIPRJMOD}/BurnWireLib.lib)(options "")(descr ""))
+  (lib (name Loris)(type Legacy)(uri ${KIPRJMOD}/Loris.lib)(options "")(descr ""))
+  (lib (name LorisBurnWire-cache)(type Legacy)(uri ${KIPRJMOD}/LorisBurnWire-cache.lib)(options "")(descr ""))
 )
